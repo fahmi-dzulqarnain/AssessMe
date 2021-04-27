@@ -58,6 +58,8 @@
 		4486963426380E7B000E51F0 /* Asses Me */ = {
 			isa = PBXGroup;
 			children = (
+				4486964F26381090000E51F0 /* ViewController */,
+				4486964D26381041000E51F0 /* Cell */,
 				4486963526380E7B000E51F0 /* AppDelegate.swift */,
 				4486963726380E7B000E51F0 /* SceneDelegate.swift */,
 				4486963926380E7B000E51F0 /* ViewController.swift */,
@@ -68,6 +70,20 @@
 				4486963E26380E7B000E51F0 /* Asses_Me.xcdatamodeld */,
 			);
 			path = "Asses Me";
+			sourceTree = "<group>";
+		};
+		4486964D26381041000E51F0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4486964F26381090000E51F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
