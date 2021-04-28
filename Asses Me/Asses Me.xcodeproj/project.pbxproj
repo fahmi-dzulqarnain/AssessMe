@@ -15,6 +15,9 @@
 		4486964226380E7B000E51F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4486964126380E7B000E51F0 /* Assets.xcassets */; };
 		4486964526380E7B000E51F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4486964326380E7B000E51F0 /* LaunchScreen.storyboard */; };
 		44869656263812A8000E51F0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44869655263812A8000E51F0 /* OnboardingViewController.swift */; };
+		4486965B26381BF4000E51F0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486965A26381BF4000E51F0 /* UIView+Extension.swift */; };
+		4486965F26381E18000E51F0 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486965E26381E18000E51F0 /* OnboardingSlide.swift */; };
+		4486966226382167000E51F0 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486966126382167000E51F0 /* OnboardingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		4486964426380E7B000E51F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4486964626380E7B000E51F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44869655263812A8000E51F0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		4486965A26381BF4000E51F0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4486965E26381E18000E51F0 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		4486966126382167000E51F0 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,10 @@
 		4486963426380E7B000E51F0 /* Asses Me */ = {
 			isa = PBXGroup;
 			children = (
+				4486965926381BC4000E51F0 /* Extension */,
 				4486965326381250000E51F0 /* CustomViews */,
 				4486965226381249000E51F0 /* Views */,
 				448696512638123B000E51F0 /* Models */,
-				4486964D26381041000E51F0 /* Cell */,
 				4486963526380E7B000E51F0 /* AppDelegate.swift */,
 				4486963726380E7B000E51F0 /* SceneDelegate.swift */,
 				4486963926380E7B000E51F0 /* ViewController.swift */,
@@ -76,16 +82,10 @@
 			path = "Asses Me";
 			sourceTree = "<group>";
 		};
-		4486964D26381041000E51F0 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 		448696512638123B000E51F0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4486965E26381E18000E51F0 /* OnboardingSlide.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,8 +109,17 @@
 			isa = PBXGroup;
 			children = (
 				44869655263812A8000E51F0 /* OnboardingViewController.swift */,
+				4486966126382167000E51F0 /* OnboardingCollectionViewCell.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4486965926381BC4000E51F0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4486965A26381BF4000E51F0 /* UIView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4486965F26381E18000E51F0 /* OnboardingSlide.swift in Sources */,
+				4486965B26381BF4000E51F0 /* UIView+Extension.swift in Sources */,
 				4486963A26380E7B000E51F0 /* ViewController.swift in Sources */,
+				4486966226382167000E51F0 /* OnboardingCollectionViewCell.swift in Sources */,
 				4486964026380E7B000E51F0 /* Asses_Me.xcdatamodeld in Sources */,
 				44869656263812A8000E51F0 /* OnboardingViewController.swift in Sources */,
 				4486963626380E7B000E51F0 /* AppDelegate.swift in Sources */,
